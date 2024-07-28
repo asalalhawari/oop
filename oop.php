@@ -20,7 +20,7 @@ class Car {
 
     
     public function getDetails() {
-        return "Make: {$this->make}, Model: {$this->model}, VIN: {$this->vin}";
+        return " $this->make, $this->model,  $this->vin";
     }
 
     
